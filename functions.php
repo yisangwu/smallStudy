@@ -51,3 +51,8 @@
         shuffle($all);
         return array_slice($all, 0, 10);
     }
+
+
+    $button_text_return = '←选题';
+    $button_text_over = '做完了☪';
+    $button_text_reload = '出新题☆';
