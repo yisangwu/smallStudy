@@ -47,7 +47,8 @@
         $plus = gen_plus_expression();
         $reduce = gen_reduce_expression();
 
-        $all = [...$plus, ...$reduce];
+        //$all = [...$plus, ...$reduce];
+        $all = $plus+ $reduce;
         shuffle($all);
         return array_slice($all, 0, 10);
     }
