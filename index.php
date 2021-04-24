@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>好好学习, 天天向上</title>
+    <link rel="apple-touch-icon-precomposed" href="app.png" />
     <link rel="stylesheet" type="text/css" href="web.css">
 </head>
 <body>
